@@ -9,3 +9,9 @@
 .header__link:hover {
     color: #CDA274;
 }
+
+@media screen and (max-width: 320px) {
+    .header__link {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,10 @@
+.hero__container {
+    max-width: 595px;
+}
+
+@media screen and (max-width: 320px) {
+    .hero__container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}

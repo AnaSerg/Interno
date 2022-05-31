@@ -1,0 +1,23 @@
+.hero {
+    max-width: 100%;
+    background: url(../../images/hero__image.jpg) center / cover no-repeat;
+    min-height: 831px;
+    box-sizing: border-box;
+    padding-top: 188px;
+    padding-left: 120px;
+}
+
+@media screen and (max-width: 700px) {
+    .hero {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .hero {
+        min-height: 500px;
+    }
+}

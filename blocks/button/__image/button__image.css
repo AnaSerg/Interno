@@ -1,0 +1,13 @@
+.button__image {
+    width: 26px;
+    height: 36px;
+    margin-left: 21px;
+}
+
+@media screen and (max-width: 320px) {
+    .button__image {
+        width: 15px;
+        height: auto;
+        margin-left: 15px;
+    }
+}
